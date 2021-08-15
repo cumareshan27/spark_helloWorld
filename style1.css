@@ -1,0 +1,15 @@
+div.column {
+  width: 50%;
+  float: left;
+}
+article {
+  background-color: beige;
+}
+
+p {
+  font-size: 14pt;
+}
+
+#fav {
+  background-color: aqua;
+}

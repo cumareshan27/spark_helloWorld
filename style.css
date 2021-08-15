@@ -1,0 +1,40 @@
+body {
+  background-color: aquamarine;
+}
+
+ol li {
+  font-size: 16pt;
+  color: cornflowerblue;
+}
+
+ul li {
+  font-size: 24pt;
+  color: chocolate;
+}
+
+a {
+  color: brown;
+}
+a:hover {
+  color: hotpink;
+}
+
+a:visited {
+  color: green;
+  color: #00ff00;
+}
+
+p {
+  line-height: 3em;
+}
+
+div {
+  color: darkgoldenrod;
+  align-self: center;
+  font-size: ;
+}
+
+h1 {
+  text-shadow: 2px 2px;
+  align-self: center;
+}
