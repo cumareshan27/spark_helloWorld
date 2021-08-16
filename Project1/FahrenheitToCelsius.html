@@ -8,21 +8,50 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="banner">Banner Image</div>
-    <nav class="wrapper">
-      <div class="sidebar">
-        <h3>Left Navigation</h3>
-        <ul>
-          <li><a href="#">index.html</a>Home</li>
-          <li>
-            <a href="#">FahrenheitToCelsiusHistory.html</a>History of Fahrenheit
-            & Celsius
-          </li>
-          <li><a href="#">Test3</a></li>
-        </ul>
+    <div class="banner">
+      <div class="banner-heading">
+        <h3>Temperature Calculation</h3>
+        <p>Temperature is a great way to measure the weather aruond us</p>
       </div>
-    </nav>
-    <h1>test test</h1>
+    </div>
+    <div class="wrapper">
+      <nav>
+        <div class="sidebar">
+          <h3>Left Navigation</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li>
+              <a href="FahrenheitToCelsiusHistory.html"
+                >History of Fahrenheit & Celsius</a
+              >
+            </li>
+            <li><a href="#">Test3</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="main_content">
+        <div class="header">Fahrenheit & Celsius Converstion</div>
+        <div class="info">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam voluptate
+          fCelsius scale, or centigrade scale, is a temperature scale that is
+          based on the freezing point of water at 0°C and the boiling point of
+          water at 100°C. Fahrenheit scale is a temperature scale that is based
+          on the freezing point of water at 32°F and the boiling point of water
+          at 212°F.
+        </div>
+        <div class="body-wrapper">
+          <div class="container">
+            <label for="celsius">Celsius</label>
+            <input type="number" id="celsius" oninput="calculateTemp()" />
+          </div>
+          <div class="container">
+            <label for="fahrenheit">Fahrenheit</label>
+            <input type="number" id="fahrenheit" oninput="calculateFah()" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
     <!-- tested the CSS here  -->
     <!-- <style>
       body {
